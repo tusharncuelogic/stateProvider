@@ -1,0 +1,11 @@
+<div ui-view="header"></div>
+<div>	
+	<div ui-view="sidebar"></div>
+	<div style="width:60%">
+		<p>
+			This is home page. Go to <a ui-sref="home.profile">Profile</a>
+		</p>
+		<div ui-view></div>
+	</div>
+</div>
+<div ui-view="footer"></div>
